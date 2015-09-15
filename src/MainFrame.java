@@ -110,7 +110,9 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void ConversionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConversionButtonActionPerformed
         // TODO add your handling code here:
-        
+        Double Tcel = Double.valueOf(InputDataField.getText());
+        Double Tfah = 1.8*Tcel+32;
+        OutputDataField.setText(""+Tfah);
     }//GEN-LAST:event_ConversionButtonActionPerformed
 
     /**
