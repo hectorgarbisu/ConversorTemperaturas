@@ -93,7 +93,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="AuthorLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="H&#xe9;ctor Corporation - Copyright DIU/ULPGC 2015 "/>
+        <Property name="text" type="java.lang.String" value=" H&#xe9;ctor Garbisu DiU 2015"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="InputDataField">
@@ -103,7 +103,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="ConversionButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="DALE!"/>
+        <Property name="text" type="java.lang.String" value="Convertir"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ConversionButtonActionPerformed"/>

@@ -44,7 +44,7 @@ public class MainFrame extends javax.swing.JFrame {
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setResizable(false);
 
-        AuthorLabel.setText("Héctor Corporation - Copyright DIU/ULPGC 2015 ");
+        AuthorLabel.setText(" Héctor Garbisu DiU 2015");
 
         InputDataField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -52,7 +52,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        ConversionButton.setText("DALE!");
+        ConversionButton.setText("Convertir");
         ConversionButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ConversionButtonActionPerformed(evt);
@@ -110,6 +110,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void ConversionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConversionButtonActionPerformed
         // TODO add your handling code here:
+        
         Double Tcel = Double.valueOf(InputDataField.getText());
         Double Tfah = 1.8*Tcel+32;
         OutputDataField.setText(""+Tfah);
